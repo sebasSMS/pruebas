@@ -1,0 +1,128 @@
+
+    #table{
+        background-color:silver;
+        
+    }
+    #boton{
+       
+        background: black;
+        color:  rgba(255, 255, 255, 0.897);
+    }
+    #boton:hover{
+        background: rgb(65, 65, 65);
+        
+    }
+    #boton:active{
+        box-shadow: rgba(6, 252, 39, 0.733);
+        transform: translateY(3px);
+    }
+    .formulario{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+      
+
+    }
+    
+    .tbl{
+      
+      margin-right: 20 px;
+    }
+    .row{
+      display: flex;
+    }
+    #container1{
+      width: 300px;
+      background: rgb(153, 153, 153);
+      float: none;
+      margin-left: 20px;
+
+    }
+    #formulario{
+        display: flex;
+        flex-wrap: nowrap;
+        float: none;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+
+    #enviar{
+      background-color: rgb(153, 153, 153);
+      margin: 10px;
+      background-color: white;
+      color: rgb(0, 0, 0);
+      border-color: silver;
+    }
+    #enviar:hover{
+        background-color: rgb(199, 199, 199);
+    }
+
+    #enviar:active{
+        box-shadow: rgba(6, 252, 39, 0.733);
+        transform: translateY(3px);
+    }
+
+    #margenTop{
+        margin-top: 8px;
+    }
+
+    #tamano{
+        width: 47%;
+    }
+    #tabla1{
+      width: 41%;
+    }
+
+    #container{
+      display: flex;
+    }
+
+    .head2{
+      height: 50px;
+      width: 900px;
+      background-color: black;
+      color: white;
+      margin-left: 3px;
+      border: 3px;
+    }
+
+    
+
+    /*---------------------------- PRUEBA ---------------------*/
+    
+   /*  .table-fixed tbody {
+      height: 130px;
+      overflow-y: auto;
+      width: 100%;
+  }
+
+    .table-fixed thead,
+    .table-fixed tfoot {
+      width: 100%;
+    }
+    
+    .table-fixed tbody {
+      height: 330px;
+      width: 330px;
+      overflow-y: auto;
+      width: 100%;
+    }
+    
+    .table-fixed thead,
+    .table-fixed tbody,
+    .table-fixed tfoot,
+    .table-fixed {
+      display: block;
+    }
+    
+    .table-fixed tbody td,
+    .table-fixed thead > tr > th,
+    .table-fixed tfoot > tr > td {
+      float: left;
+      border-bottom-width: 0;
+    }
+    
+
+     */
